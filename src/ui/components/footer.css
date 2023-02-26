@@ -1,0 +1,48 @@
+footer {
+    background-color: #0a1b2c;
+    color: #fff;
+    stroke: #fff;
+    padding-block: 3rem;
+}
+
+.contenedor-footer {
+    width: 85%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-family: var(--serif-font);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.conoce-mas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+    border-left: 0.5px solid #fff;
+}
+
+.conoce-mas p {
+    font-size: 1.3rem;
+}
+
+.redes-sociales {
+    display: flex;
+}
+
+.redes-sociales a {
+    display: grid;
+    align-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.redes-sociales a:hover {
+    background-color: #1d3752;
+}
