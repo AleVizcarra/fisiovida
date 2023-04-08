@@ -18,12 +18,12 @@ export const Navbar = () => {
                         <NavLink
                             to="/quienessomos"
                         >
-                            Quienes Somos
+                            Quiénes Somos
                         </NavLink>
                         <NavLink
                             to="/servicios"
                         >
-                            Servicio
+                            Servicios
                         </NavLink>
                         <NavLink
                             to="/testimonios"
