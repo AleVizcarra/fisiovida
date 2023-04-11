@@ -20,7 +20,7 @@ export const Home = () => {
             <img className='bienvenida-img' src="./src/assets/terapeuta.jpg" alt="Terapia de un paciente" />
             <div className="bienvenida-texto">
               <h2 className='subtitulo-serif'>Bienvenido a Fisiovida</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim fugiat debitis deleniti molestias obcaecati! Voluptatum consequatur repudiandae quia obcaecati tenetur enim tempora consequuntur quo necessitatibus ex quam atque beatae veritatis, sequi nisi unde a natus praesentium possimus animi quae vel vitae et accusamus. Ipsum delectus nemo hic cum voluptates.</p>
+              <p>En Fisiovida contamos con más de 5 años de experiencia en las diferentes áreas de terapia física y de rehabilitación. Creemos en abrir nuestras puertas para ofrecerle una grata experiencia durante su recuperación trabajando con profesionales con gran experiencia en terapia física y rehabilitación que cubrirán las necesidades específicas de cada paciente...</p>
             </div>
           </section>
 
@@ -28,26 +28,26 @@ export const Home = () => {
             <h2 className='subtitulo-serif'>¿Por qué elegirnos?</h2>
             <div className='lista-beneficios'>
               <div className='beneficio'>
-                <svg strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M13.9 18h-3.8a.6.6 0 01-.6-.6v-2.3a.6.6 0 00-.6-.6H6.6a.6.6 0 01-.6-.6v-3.8a.6.6 0 01.6-.6h2.3a.6.6 0 00.6-.6V6.6a.6.6 0 01.6-.6h3.8a.6.6 0 01.6.6v2.3a.6.6 0 00.6.6h2.3a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-2.3a.6.6 0 00-.6.6v2.3a.6.6 0 01-.6.6z" strokeWidth="1.5"></path><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M7 12.5l3 3 7-7" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 <div className='texto-beneficio'>
-                  <h3>Beneficio</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, aliquam!</p>
+                  <h3>Calidad</h3>
+                  <p>Contamos con terapeutas altamente especializados que ofrecen las mejores técnicas de terapia física</p>
                 </div>
               </div>
 
               <div className='beneficio'>
-                <svg strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.9 18h-3.8a.6.6 0 01-.6-.6v-2.3a.6.6 0 00-.6-.6H6.6a.6.6 0 01-.6-.6v-3.8a.6.6 0 01.6-.6h2.3a.6.6 0 00.6-.6V6.6a.6.6 0 01.6-.6h3.8a.6.6 0 01.6.6v2.3a.6.6 0 00.6.6h2.3a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-2.3a.6.6 0 00-.6.6v2.3a.6.6 0 01-.6.6z" strokeWidth="1.5"></path><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.5 14.5s-1.5 2-4.5 2-4.5-2-4.5-2" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15.5 9a.5.5 0 110-1 .5.5 0 010 1zM8.5 9a.5.5 0 110-1 .5.5 0 010 1z" fill="#ffffff" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 <div className='texto-beneficio'>
-                  <h3>Beneficio</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, aliquam!</p>
+                  <h3>Calidez</h3>
+                  <p>Nuestro personal estará esperándote siempre con una sonrisa</p>
                 </div>
               </div>
 
               <div className='beneficio'>
-                <svg strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.9 18h-3.8a.6.6 0 01-.6-.6v-2.3a.6.6 0 00-.6-.6H6.6a.6.6 0 01-.6-.6v-3.8a.6.6 0 01.6-.6h2.3a.6.6 0 00.6-.6V6.6a.6.6 0 01.6-.6h3.8a.6.6 0 01.6.6v2.3a.6.6 0 00.6.6h2.3a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-2.3a.6.6 0 00-.6.6v2.3a.6.6 0 01-.6.6z" strokeWidth="1.5"></path><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M9 21h6m-6 0v-5m0 5H3.6a.6.6 0 01-.6-.6v-3.8a.6.6 0 01.6-.6H9m6 5V9m0 12h5.4a.6.6 0 00.6-.6V3.6a.6.6 0 00-.6-.6h-4.8a.6.6 0 00-.6.6V9m0 0H9.6a.6.6 0 00-.6.6V16" stroke="#ffffff" stroke-width="1.5"></path></svg>
                 <div className='texto-beneficio'>
-                  <h3>Beneficio</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, aliquam!</p>
+                  <h3>Mejora continua</h3>
+                  <p>Buscamos mejorar día con día para ofrecer los mejores servicios</p>
                 </div>
               </div>
             </div>
@@ -56,26 +56,26 @@ export const Home = () => {
           <section className='contenedor-70 seccion resumen-servicios'>
               <div className='resumen-servicios-texto'>
                 <h2 className='subtitulo-serif resumen-servicios-titulo'>Proveemos servicios de terapia física de la mayor calidad</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus maiores adipisci earum dolor repellat quas ipsum incidunt dolores culpa voluptatum blanditiis, id harum deserunt eius obcaecati itaque aut tenetur.</p>
+                <p>En Fisiovida nos esforzamos por mantenernos a la vanguardia, ofreciendo las mejores técnicas de terapia física pensando en tu salud y bienestar.</p>
                 <div className="datos">
                   <div className="dato">
-                    <p className='numero'>10</p>
-                    <p className="etiqueta">Lorem, ipsum.</p>
+                    <p className='numero'>+200</p>
+                    <p className="etiqueta">pacientes rehabilitados</p>
                   </div>
 
                   <div className="dato">
-                    <p className='numero'>+50</p>
-                    <p className="etiqueta">Lorem, ipsum.</p>
+                    <p className='numero'>9</p>
+                    <p className="etiqueta">técnicas de terapia física</p>
                   </div>
 
                   <div className="dato">
-                    <p className='numero'>17</p>
-                    <p className="etiqueta">Lorem, ipsum.</p>
+                    <p className='numero'>4</p>
+                    <p className="etiqueta">terapeutas especializados</p>
                   </div>
 
                   <div className="dato">
-                    <p className='numero'>20</p>
-                    <p className="etiqueta">Lorem, ipsum.</p>
+                    <p className='numero'>+5</p>
+                    <p className="etiqueta">años ayudando</p>
                   </div>
                 </div>
               </div>
