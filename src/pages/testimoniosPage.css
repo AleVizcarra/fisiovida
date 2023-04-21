@@ -1,0 +1,48 @@
+.hero-pag-testimonios {
+    background-image: url('../assets/hero_testimonios.png');
+    background-color: #E2E2E2;
+}
+
+.main-testimonios {
+    margin-block: 4rem;
+}
+
+.lista-testimonios {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+.testimonio {
+    background-color: #ebf4ff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 1rem 2.5rem;
+}
+
+.testimonio-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quotes {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+
+.testimonio-texto {
+    margin-bottom: 0.7rem;
+}
+
+.testimonio-nombre {
+    font-style: italic;
+    font-weight: bold;
+}

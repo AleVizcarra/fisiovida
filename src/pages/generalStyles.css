@@ -1,3 +1,44 @@
-.contenedor-principal {
-    margin-top: 5rem;
+.hero-pag-secundaria {
+    width: 100vw;
+    height: 20rem;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.texto-hero-pag-secundaria {
+    background-color: var(--blue);
+    padding: 1rem 1.5rem;
+}
+
+.titulo {
+    font-family: var(--title-font);
+    font-size: 4rem;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subtitulo-pag-secundaria {
+    font-family: var(--serif-font);
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-block: 1rem;
+}
+
+.subtitulo-centrado {
+    text-align: center;
+}
+
+.subtitulo-azul {
+    color: var(--dark-blue);
+}
+
+.subtitulo-blanco {
+    color: #fff;
 }

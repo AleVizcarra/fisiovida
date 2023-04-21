@@ -1,0 +1,38 @@
+.hero-pag-servicios {
+    background-image: url('../assets/hero_servicios.png');
+    background-color: #E2E2E2;
+}
+
+.main-servicios {
+    margin-block: 4rem;
+}
+
+.tipos-terapia {
+    width: 100%;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    gap: 3rem;
+}
+
+.tipo-terapia {
+    background-color: #ebf4ff;
+    padding: 1.9rem 1.5rem 1rem;
+    position: relative;
+}
+
+.terapia-icono {
+    background-color: var(--blue);
+    height: 40px;
+    padding: 3px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+}

@@ -1,0 +1,95 @@
+.titulo-pag-secundaria {
+    font-family: var(--serif-font);
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+.titulo-azul {
+    color: var(--dark-blue);
+}
+
+.main-contacto {
+    margin-block: 4rem;
+}
+
+.seccion-formulario {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-right: 1.5rem;
+}
+
+.formulario-img {
+    width: 280px;
+}
+
+.formulario {
+    background-color: #f0f4f8;
+    align-self: stretch;
+    padding: 2.5rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input, textarea {
+    border-bottom: 1px solid var(--dark-blue);
+    background-color: transparent;
+    outline: none;
+    font-family: var(--body-font);
+}
+
+textarea {
+    resize: none;
+}
+
+.inputs-nombre {
+    display: flex;
+    column-gap: 0.8rem;
+}
+
+.inputs-nombre div {
+    flex-grow: 1;
+}
+
+#nombre, #apellidos {
+    width: 100%;
+}
+
+input:not([type='submit']):focus, textarea:focus {
+    border-width: 1.4px;
+    border-color: var(--blue);
+}
+
+.submit-btn {
+    font-family: var(--title-font);
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    background-color: var(--blue);
+    width: 50%;
+    padding: 5px 1.5rem;
+    align-self: center;
+    margin-top: auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: var(--dark-blue);
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.hero-pag-quienes-somos {
+    background-image: url('../assets/hero_quienes-somos.png');
+    background-color: #E2E2E2;
+}
+
+.historia {
+    margin-block: 2.5rem;
+    text-align: center;
+}
+
+.mision-vision {
+    background-color: var(--dark-blue);
+    padding-block: 3rem;
+}
+
+.mision, .vision {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding-inline: 2rem;
+}
+
+/* .vision {
+    text-align: right;
+} */
+
+.mision-texto, .vision-texto {
+    width: 60%;
+}
+
+.vision-texto {
+    order: 1;
+}
+
+.vision svg {
+    order: 0;
+}
+
+.valores {
+    padding-block: 3rem;
+    color: var(--dark-blue);
+}
+
+.lista-valores {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.valor {
+    width: 18%;
+    text-align: center;
+}
+
+.equipo {
+    background-color: #e9ecef;
+    padding-block: 3rem;
+    color: var(--dark-blue);
+}
+
+.lista-terapeutas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.terapeuta {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.terapeuta-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.link-rs.bg-gris:hover {
+    background-color: #cdd3da;
+}
+
