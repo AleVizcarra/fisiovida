@@ -1,7 +1,9 @@
 import { Link, NavLink } from 'react-router-dom';
 import './navbar.css';
+import { useState } from 'react';
 
 export const Navbar = () => {
+
     return (
         <header className='header'>
             <nav className='navbar'>
@@ -14,7 +16,13 @@ export const Navbar = () => {
                     <span>Fisiovida</span>
                 </Link>
                 <div className='menu'>
-                    <div className='links-paginas'>
+                    <input type="checkbox" id="menu-btn" />
+                    <label htmlFor="menu-btn" className="menu-btn-icon">
+                        <svg width="35px" height="35px" strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 5h18M3 12h18M3 19h18" strokeWidth="1.5" stroke-inecap="round" strokeLinejoin="round"></path></svg>
+                    </label>
+                    <div 
+                        className='links-paginas'
+                    >
                         <NavLink
                             to="/quienessomos"
                         >

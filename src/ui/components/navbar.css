@@ -2,6 +2,10 @@
     text-decoration: none;
 } 
 
+body {
+    position: relative;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -42,6 +46,21 @@
 .menu {
     flex-grow: 1;
     margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.menu-btn-icon {
+    color: #023e7d;
+    stroke: #023e7d;
+    order: 10;
+    display: none;
+    transition: all 0.4s ease-in-out;
+    z-index: 100;
 }
 
 .links-paginas {
@@ -83,4 +102,65 @@
 
 .telefono {
     font-weight: 600;
+}
+
+@media screen and (max-width: 880px){
+    .informacion-contacto {
+        display: none;
+    }
+
+    .menu {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .menu-btn-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .links-paginas {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        flex-direction: column;
+        padding: 2.3rem;
+        background-color: var(--light-blue);
+        text-align: center;
+        transform: translateX(100%);
+        transition: all 0.4s ease-in-out;
+        justify-content: center;
+    }
+
+    .links-paginas a {
+        color: var(--dark-blue);
+        font-size: 1.2rem;
+        padding-block: 2rem;
+    }
+
+    /* #menu-btn:checked + .menu-btn-icon svg {
+        color: #fff;
+        stroke: #fff;
+    } */
+
+    #menu-btn:checked ~ .links-paginas {
+        transform: translate(0);
+    }
+
+    .links-paginas *::before {
+        background-color: var(--dark-blue);
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
+    
+    .links-paginas *:hover {
+        color: var(--dark-blue);
+    }
+
 }

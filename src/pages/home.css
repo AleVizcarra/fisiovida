@@ -148,14 +148,25 @@ p {
 
 .resumen-servicios {
     display: flex;
+    flex-direction: column;
+}
+
+.resumen-servicios-titulo {
+    text-align: left;
+}
+
+.contenedor-texto-img {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     column-gap: 5rem;
     text-align: left;
 }
 
-.resumen-servicios img {
-    width: 35%;
+.contenedor-texto-img img {
+    width: 280px;
+    max-width: 500px;
+    min-width: 250px;
 }
 
 .datos {
@@ -182,4 +193,221 @@ p {
 .etiqueta {
     font-family: var(--serif-font);
     font-size: 1.1rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 940px) {
+    body p {
+        font-size: 0.9rem;
+    }
+    /* HERO */
+    .hero {
+        padding-inline: 3rem;
+    }
+    .texto-hero {
+        flex-grow: 1;
+    }
+
+    .texto-hero h1 {
+        font-size: 2.3rem;
+    }
+    
+    .texto-hero h2 {
+        font-size: 1.1rem;
+    }
+
+    .hero img {
+        width: 280px;
+    }
+
+    /* BIENVENIDA */
+    .contenedor {
+        width: 90%;
+    }
+    
+    .seccion {
+        margin-block: 7rem;
+    }
+    
+    .bienvenida-img {
+        width: 250px;
+    }
+    
+    .bienvenida-texto {
+        width: 60%;
+    }
+    
+    .bienvenida-texto h2 {
+        font-size: 2.3rem;
+    }
+
+    /* BENEFICIOS */
+    .texto-beneficio p {
+        font-size: 0.9rem;
+    }
+
+    /* RESUMEN SERVICIOS */
+    .resumen-servicios {
+        width: 85%;
+    }
+
+    .resumen-servicios-texto {
+        flex-grow: 1;
+    }
+
+    .resumen-servicios {
+        justify-content: center;
+        column-gap: 1.3rem;
+    }
+
+    .resumen-servicios img {
+        min-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .texto-hero {
+        flex-grow: 0;
+        width: 85%;
+        text-align: center;
+    }
+
+    .texto-hero h1 {
+        font-size: 2rem;
+    }
+
+    .texto-hero h2 {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .conocenos-btn {
+        font-size: 1.3rem;
+        margin-inline: auto;
+    }
+
+    .hero img {
+        width: 230px;
+        order: -1;
+    }
+
+    /* BIENVENIDA */
+    .contenedor {
+        width: 90%;
+    }
+
+    .bienvenida {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-inline: auto;
+        margin-block: 5rem;
+      }
+    
+    .bienvenida-img {
+        margin-bottom: 1.3rem;
+    }
+    
+    .bienvenida-texto {
+        width: 80%;
+    }
+    
+    .bienvenida-texto h2 {
+        font-size: 1.9rem;
+    }
+
+    /* BENEFICIOS */
+    .beneficios {
+        padding: 2.3rem;
+    }
+
+    .subtitulo-serif {
+        font-size: 1.9rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .contenedor-texto-img {
+        flex-direction: column;
+    }
+
+    .resumen-servicios-titulo {
+        text-align: center;
+    }
+
+    .resumen-servicios-texto p {
+        text-align: center;
+    }
+
+    .datos {
+        width: 100%;
+    }
+
+    .contenedor-texto-img img {
+        order: -1;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .lista-beneficios {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .beneficio {
+        width: 50%;
+    }
+
+    .datos {
+        width: 65%;
+        margin: 1.5rem auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        padding-inline: 1.3rem;
+    }
+
+    .texto-hero {
+        width: 100%;
+    }
+
+    .texto-hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .texto-hero h2 {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .conocenos-btn {
+        font-size: 1rem;
+    }
+
+    .hero img {
+        width: 200px;
+    }
+
+    .beneficio {
+        width: 70%;
+    }
+
+    .bienvenida-texto h2 {
+        font-size: 1.5rem;
+    }
+
+    .subtitulo-serif {
+        font-size: 1.5rem;
+    }
 }

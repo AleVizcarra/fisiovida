@@ -1,9 +1,13 @@
+import { Helmet } from 'react-helmet';
 import './generalStyles.css';
 import './testimoniosPage.css';
 
 export const TestimoniosPage = () => {
   return (
     <>
+        <Helmet>
+          <title>Fisiovida | Testimonios</title>
+        </Helmet>
         {/* SECCIÓN CON BACKGROUND IMAGE */}
         <section className="hero-pag-testimonios hero-pag-secundaria">
           <div className='texto-hero-pag-secundaria'>

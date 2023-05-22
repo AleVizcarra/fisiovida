@@ -11,7 +11,7 @@
     width: 100%;
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -35,4 +35,22 @@
     border-radius: 50%;
     position: absolute;
     top: -20px;
+}
+
+@media screen and (max-width: 750px) {
+    .main-servicios h2, .servicios-introduccion {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-pag-servicios {
+        background-image: none;
+        background-color: transparent;
+        height: fit-content;
+    }
+
+    .main-servicios {
+        margin-top: 1rem;
+    }
 }

@@ -1,9 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import './home.css';
+import { Helmet } from 'react-helmet';
 
 export const Home = () => {
   return (
     <>
+        <Helmet>
+          <title>Fisiovida | Home</title>
+        </Helmet>
         <section className="hero">
           <div className='texto-hero'>
             <h1>Tu cuerpo es tu compañero de vida, cuídalo, escúchalo y atiéndelo</h1>
@@ -54,32 +58,31 @@ export const Home = () => {
           </section>
 
           <section className='contenedor-70 seccion resumen-servicios'>
-              <div className='resumen-servicios-texto'>
-                <h2 className='subtitulo-serif resumen-servicios-titulo'>Proveemos servicios de terapia física de la mayor calidad</h2>
-                <p>En Fisiovida nos esforzamos por mantenernos a la vanguardia, ofreciendo las mejores técnicas de terapia física pensando en tu salud y bienestar.</p>
-                <div className="datos">
-                  <div className="dato">
-                    <p className='numero'>+200</p>
-                    <p className="etiqueta">pacientes rehabilitados</p>
-                  </div>
-
-                  <div className="dato">
-                    <p className='numero'>9</p>
-                    <p className="etiqueta">técnicas de terapia física</p>
-                  </div>
-
-                  <div className="dato">
-                    <p className='numero'>4</p>
-                    <p className="etiqueta">terapeutas especializados</p>
-                  </div>
-
-                  <div className="dato">
-                    <p className='numero'>+5</p>
-                    <p className="etiqueta">años ayudando</p>
+              <h2 className='subtitulo-serif resumen-servicios-titulo'>Proveemos servicios de terapia física de la mayor calidad</h2>
+              <div className="contenedor-texto-img">
+                <div className='resumen-servicios-texto'>
+                  <p>En Fisiovida nos esforzamos por mantenernos a la vanguardia, ofreciendo las mejores técnicas de terapia física pensando en tu salud y bienestar.</p>
+                  <div className="datos">
+                    <div className="dato">
+                      <p className='numero'>+200</p>
+                      <p className="etiqueta">pacientes rehabilitados</p>
+                    </div>
+                    <div className="dato">
+                      <p className='numero'>9</p>
+                      <p className="etiqueta">técnicas de terapia física</p>
+                    </div>
+                    <div className="dato">
+                      <p className='numero'>4</p>
+                      <p className="etiqueta">terapeutas especializados</p>
+                    </div>
+                    <div className="dato">
+                      <p className='numero'>+5</p>
+                      <p className="etiqueta">años ayudando</p>
+                    </div>
                   </div>
                 </div>
+                <img src="./src/assets/resumen-servicios.jpg" alt="Mujer recibiendo terapia" />
               </div>
-              <img src="./src/assets/resumen-servicios.jpg" alt="Mujer recibiendo terapia" />
           </section>
         </div>
     </>

@@ -1,9 +1,13 @@
+import { Helmet } from 'react-helmet';
 import './generalStyles.css';
 import './serviciosPage.css';
 
 export const ServiciosPage = () => {
   return (
     <>
+        <Helmet>
+          <title>Fisiovida | Servicios</title>
+        </Helmet>
          {/* SECCIÓN CON BACKGROUND IMAGE */}
          <section className="hero-pag-secundaria hero-pag-servicios">
           <div className='texto-hero-pag-secundaria'>
@@ -13,7 +17,7 @@ export const ServiciosPage = () => {
 
         <main className='main-servicios contenedor'>
           <h2 className="subtitulo-pag-secundaria subtitulo-azul">Ofrecemos diferentes tipos de fisioterapia</h2>
-          <p>Los medios y técnicas utilizados en la fisioterapia  son muy variados e incluso pueden determinar el tipo de terapia física  utilizada.
+          <p className='servicios-introduccion'>Los medios y técnicas utilizados en la fisioterapia  son muy variados e incluso pueden determinar el tipo de terapia física  utilizada.
           Principalmente se dividen en técnicas de terapia manual -utilizando las manos como principal medio de rehabilitación- o de terapia mediante otras herramientas físicas o naturales.</p>
 
           <section className="tipos-terapia">

@@ -25,6 +25,11 @@
     text-align: right;
 } */
 
+.mision svg, .vision svg  {
+    width: 120px;
+    height: 120px;
+}
+
 .mision-texto, .vision-texto {
     width: 60%;
 }
@@ -89,3 +94,150 @@
     background-color: #cdd3da;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 940px) {
+    .titulo {
+        font-size: 3.3rem;
+        letter-spacing: 3px;
+    }
+
+    .subtitulo-pag-secundaria {
+        font-size: 1.9rem;
+    }
+
+    .fila {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .hero-pag-secundaria {
+        padding-left: 3.8rem;
+    }
+
+    .lista-valores {
+        flex-direction: column;
+        align-items: center;
+        margin-block: 1.2rem;
+        row-gap: 1.2rem;
+    }
+
+    .valor {
+        width: 45%;
+    }
+
+    .fila {
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    .subtitulo-pag-secundaria {
+        font-size: 1.8rem;
+    }
+
+    .mision, .vision {
+        padding-inline: 0;
+    }
+
+    .mision {
+        margin-bottom: 1.5rem;
+    }
+
+    .fila {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .terapeuta {
+        width: 65%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terapeuta-img {
+        margin-bottom: 0.5rem;
+    }
+
+    .terapeuta-texto {
+        text-align: center;
+    }
+
+    .redes-sociales {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-pag-secundaria {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .mision, .vision {
+        column-gap: 0.8rem;
+        padding-inline: 0.5rem;
+    }
+
+    .mision-texto, .vision-texto {
+        flex-grow: 1;
+    }
+
+    .mision svg, .vision svg  {
+        order: -1;
+        width: 95px;
+        height: 95px;
+    }
+
+    .mision p, .vision p {
+        font-size: 0.9rem;
+    }
+
+    .fila {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .terapeuta {
+        padding-block: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-pag-quienes-somos {
+        background-image: none;
+        background-color: transparent;
+        height: fit-content;
+    }
+
+    .texto-hero-pag-secundaria {
+        background-color: transparent;
+        padding: 1rem;
+    }
+
+    .titulo {
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+        color: var(--dark-blue);
+        position: relative;
+        padding-inline: 2.5rem;
+    }
+
+    .titulo {
+        border-bottom: 2px solid var(--dark-blue);
+    }
+
+    .hero-pag-secundaria {
+        margin-top: 2rem;
+    }
+
+    .historia {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
